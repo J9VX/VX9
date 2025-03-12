@@ -13,7 +13,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
@@ -24,7 +24,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/VARC001/Opus",
+    "https://github.com/VX-Opus/Opusv1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
