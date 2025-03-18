@@ -1,4 +1,4 @@
-from Opus import app
+"""from Opus import app
 import asyncio
 import random
 from pyrogram import Client, filters
@@ -156,3 +156,4 @@ async def cancel_spam(client, message):
         except:
             pass
         return await message.reply("♦️ ꜱᴛᴏᴘᴘᴇᴅ..♦️")
+"""
